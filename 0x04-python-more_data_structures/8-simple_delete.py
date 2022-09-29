@@ -1,4 +1,5 @@
-#!/usrr/bin/python3
+#!/usr/bin/python3
 def simple_delete(a_dictionary, key=""):
-    a_dictionary.pop(key)
-    print("{}".format(a_dictionary))
+    a=a_dictionary.pop(key)
+    return a
+    
