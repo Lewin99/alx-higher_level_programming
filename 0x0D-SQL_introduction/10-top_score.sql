@@ -1,2 +1,2 @@
 -- ordered
-SELECT * FROM `second_table` ORDER BY `score`
+SELECT * FROM `second_table` ORDER BY `score` DESC
