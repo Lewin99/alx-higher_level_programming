@@ -1,7 +1,7 @@
 #!/usr/bin/node
-let narg = 0;
 
-exports.logMe = function (item) {
-  console.log(narg + ': ' + item);
-  narg++;
+exports.converter = function (base) {
+  return function (num) {
+    return num.toString(base);
+  };
 };
